@@ -4,9 +4,9 @@ import "./index.css"
 
 export default function App(){
     
-    //states- input query, movies
+    
     const [query, setQuery] = useState('');
-    //create the state for movies, and update that state appropriate
+    
     const [movies, setMovies] = useState([]);
     
     const searchMovies = async (e) => {
